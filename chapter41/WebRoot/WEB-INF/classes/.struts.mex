@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="control" location="0,0" size="0,0">
+    <action name="ShowStudent" location="0,0" size="0,0">
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="studentinfo.jsp" />
+      </result>
+    </action>
+    <action name="Insert" location="0,0" size="0,0">
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="insertfail.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="insertsuc.jsp" />
+      </result>
+    </action>
+    <action name="Update" location="0,0" size="0,0">
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="updatefail.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updatesuc.jsp" />
+      </result>
+    </action>
+    <action name="Deletebyid" location="0,0" size="0,0">
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="deletefail.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="deleteidsuc.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="error.jsp" path="/error.jsp" location="0,0" size="0,0" />
+  <webResource name="studentinfo.jsp" path="/studentinfo.jsp" location="0,0" size="0,0" />
+  <webResource name="insertfail.jsp" path="/insertfail.jsp" location="0,0" size="0,0" />
+  <webResource name="insertsuc.jsp" path="/insertsuc.jsp" location="0,0" size="0,0" />
+  <webResource name="updatefail.jsp" path="/updatefail.jsp" location="0,0" size="0,0" />
+  <webResource name="updatesuc.jsp" path="/updatesuc.jsp" location="0,0" size="0,0" />
+  <webResource name="deletefail.jsp" path="/deletefail.jsp" location="0,0" size="0,0" />
+  <webResource name="deleteidsuc.jsp" path="/deleteidsuc.jsp" location="0,0" size="0,0" />
+  <webResource name="Queryallstu.jsp" path="/Queryallstu.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+
